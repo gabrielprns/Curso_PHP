@@ -8,8 +8,9 @@
 </head>
 <body>
   <?php
-  
+  $ano=2022;
+  echo "O ano atual é $ano eo ano anterior é " . --$ano;
+
   ?>
-  
 </body>
 </html>
