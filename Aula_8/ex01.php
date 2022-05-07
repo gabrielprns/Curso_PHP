@@ -1,4 +1,5 @@
 <?php
   $valor = $_GET["v"];
-  echo "O valor enviado foi $valor";
+  $rq = sqrt($valor);
+  echo "A raíz de $valor é igual a " . number_format($rq,2);
 ?>
