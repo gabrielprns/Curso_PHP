@@ -8,7 +8,7 @@
 </head>
 <body>
   <?php
-  $Ano=2007;
+  $Ano=2008;
   $Idade=2022 - $Ano;
   echo "A pessoa tem $Idade anos e nasceu em $Ano";
   $voto=($Idade>=18 && $Idade <=65)?"Obrigatório":"Não Obrigatório";
