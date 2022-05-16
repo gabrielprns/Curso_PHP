@@ -7,6 +7,18 @@
   <title>Document</title>
 </head>
 <body>
+  <form action="ex02.php" method="get">
+    <select name="num">
+      <?php
+      for ($i=0; $i<=10; $i++) { 
+        echo"<option>$i</option>";
+      }
+      ?>
+      
+      
+    </select>
+    <input type="submit" value="Enviar">
+  </form>
   
 </body>
 </html>
