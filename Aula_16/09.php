@@ -1,1 +1,3 @@
-<?php?>
+<?php
+$site = "CursoemVideo";
+?>
