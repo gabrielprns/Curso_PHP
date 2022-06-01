@@ -1,3 +1,3 @@
 <?php
-$Site = "CursoemVideo";
+$Site = "CursoemVideo2";
 ?>
