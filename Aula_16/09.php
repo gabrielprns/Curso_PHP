@@ -1,3 +1,5 @@
 <?php
-$Site = "CursoemVideo2";
+$Site = "Curso em Video";
+$vetor=explode(" ", $Site);
+print_r($vetor);
 ?>
