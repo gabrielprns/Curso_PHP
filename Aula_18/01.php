@@ -1,4 +1,7 @@
 <?php
-$r[0]="pomba";
-$r[1]="pimba";
+$c = range(2,20,5);
+
+foreach($c as $v){
+  echo "$v ";
+}
 ?>
